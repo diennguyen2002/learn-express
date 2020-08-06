@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../layout/head.ejs') %>
+</head>
+
+<body>
+    <div class="container">
+        <%- include('../layout/navbar') %>
+        <div class="row">
+            <div class="col-lg-3">
+                <%- include('../layout/menu') %>
+            </div>
+            <div class="col-lg-9">
+                <%- include(page, data) %>
+            </div>
+        </div>
+    </div>
+    <%- include('../layout/js.ejs') %>
+</body>
+
+</html>
