@@ -1,0 +1,54 @@
+{
+  "sanpham": [],
+  "dichvu": [],
+  "nguoidung": [
+    {
+      "username": "diennguyen",
+      "email": "diennvt@evolabeasia.com",
+      "password": "fcea920f7412b5da7be0cf42b8c93759",
+      "id": "upEwgVP-6"
+    },
+    {
+      "username": "lamthien",
+      "email": "lamthien@yahoo.com",
+      "password": "102a23a0e4661368943dacb516a18cc8",
+      "id": "8GLT5A-mO"
+    },
+    {
+      "username": "phuongquynh",
+      "email": "phuongquynh@yahoo.com",
+      "password": "25f9e794323b453885f5181f1b624d0b",
+      "id": "7FUkZxRyt"
+    },
+    {
+      "username": "thuphuong",
+      "email": "thuphuong@gmail.com",
+      "password": "25d55ad283aa400af464c76d713c07ad",
+      "id": "ENzg6B_g6"
+    },
+    {
+      "username": "aaa",
+      "email": "aaa@yahoo.com",
+      "password": "202cb962ac59075b964b07152d234b70",
+      "id": "a3E2guTPs"
+    },
+    {
+      "username": "bbb",
+      "email": "bbb@yahoo.com",
+      "password": "202cb962ac59075b964b07152d234b70",
+      "id": "VUkz1ZtpY"
+    },
+    {
+      "username": "xxxxx",
+      "email": "xxxx@yahoo.com",
+      "password": "25d55ad283aa400af464c76d713c07ad",
+      "id": "oJgo7KI31"
+    },
+    {
+      "username": "kkkkk",
+      "email": "kkkk@yahoo.com",
+      "password": "25f9e794323b453885f5181f1b624d0b",
+      "id": "BKSNvyx3u"
+    }
+  ]
+}

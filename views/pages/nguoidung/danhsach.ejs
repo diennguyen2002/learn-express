@@ -1,0 +1,21 @@
+<h1>Danh sách người dùng</h1>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Tên</th>
+            <th scope="col">Email</th>
+            <th scope="col">Mật khẩu</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% data.forEach(function(nd){ %>
+            <tr>
+                <th scope="row"><%=nd.id%></th>
+                <td><%=nd.username%></td>
+                <td><%=nd.email%></td>
+                <td><%=nd.password%></td>
+            </tr>
+        <%});%>
+    </tbody>
+</table>

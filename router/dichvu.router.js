@@ -1,19 +1,12 @@
-const express = require('express')
-const router = express.Router()
-router.use(express.static('public'))
+const express = require("express");
+const router = express.Router();
+const controller = require("../controllers/dichvu.controller");
 
 // middleware
-router.use(function(req, res, next){
-    console.log('middleware dich vu');
-    next();
-});
+router.use(controller.middleWare);
+// router
+router.get("/danhsach", controller.getDanhsach);
+router.get("/them", controller.getThem);
+router.post("/them", controller.postThem);
 
-router.get("/danhsach", function(req, res){
-    res.render('pages/index', {page: './dichvu/danhsach', data:''})
-});
-
-router.get("/them", function(req, res){
-    res.render('pages/index', {page: './dichvu/them', data: ''})
-});
-
-module.exports = router
+module.exports = router;

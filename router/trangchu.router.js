@@ -1,14 +1,10 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
-router.use(express.static('public'));
+const controller = require("../controllers/trangchu.controller");
 
-router.use(function(req, res, next){
-    console.log('middleware trang chu');
-    next();
-});
+// middleware
+router.use(controller.middleWare);
 
-router.get("/", function(req, res){
-    res.render('pages/index', {page: './trangchu/trangchu', data: ''});
-});
+router.get("/", controller.getIndex);
 
-module.exports = router
+module.exports = router;
