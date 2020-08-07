@@ -9,7 +9,7 @@ const middleWare = function (req, res, next) {
 
 const getDanhsach = function (req, res) {
   const nguoidung = db.get("nguoidung").value();
-  res.render("pages/index", { page: "./nguoidung/danhsach", data: "" });
+  res.render("pages/index", { page: "./nguoidung/danhsach", data: nguoidung });
 };
 
 const getThem = function (req, res) {
